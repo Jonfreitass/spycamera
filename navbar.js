@@ -7,8 +7,8 @@ function fotos () {
 }
 
 function preco () {
-    document.body.scrollTop = 1650;
-    document.documentElement.scrollTop = 1650;
+    document.body.scrollTop = 1500;
+    document.documentElement.scrollTop = 1500;
     
     
 }
