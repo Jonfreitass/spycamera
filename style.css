@@ -1,0 +1,277 @@
+.titulos {
+    font-family: 'Sigmar', cursive;
+}
+
+
+
+@media (min-width: 768px) {
+    .bannerimg {
+        height: 600px;
+        width: 100%;
+    }
+}
+
+
+
+.banner1 {
+    overflow-x: auto;
+}
+
+.banner{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.banner1::-webkit-scrollbar {
+    display: none;
+}
+.banner1 { 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.bannerimg {
+    height:250px;
+    width: 100%;
+    flex-shrink: 0;
+    opacity: 1;
+    transition: all 600ms ease-in-out;
+    margin-left: 0px;
+
+}
+
+.titulo1 {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: -10px;
+    padding: 13px;
+    font-family: 'Sigmar', cursive;
+    background-image: linear-gradient(to bottom, white, rgb(248, 242, 242));
+}
+
+.txtin {
+    margin: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: white;    
+    
+}
+
+.galeria2 {
+    overflow-x: auto;
+}
+
+.galeria {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.arrow-left-control,
+.arrow-right-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right-control {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, black 200%)
+
+}
+
+.arrow-left-control:hover,
+.arrow-right-control:hover {
+    opacity: 1;
+    
+}
+
+
+.item {
+    height:250px;
+    width: 250px;
+    flex-shrink: 0;
+    opacity: 1;
+    transition: all 600ms ease-in-out;
+    margin-left: 10px;
+
+}
+
+.current-item {
+    opacity: 1;
+}
+
+.galeria2::-webkit-scrollbar {
+    display: none;
+}
+.galeria2 { 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.inf {
+    text-align: center;
+    border-bottom: solid;
+}
+
+.desc {
+    background-image: linear-gradient(to bottom,white,rgb(236, 232, 232));
+    padding: 20px;
+}
+
+.descricao {
+    margin: 10px;
+    
+
+}
+
+
+.txtdes {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+
+
+.cameraprc {
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.pant {
+    margin-left: 150px;
+    margin-top: -120px;
+    color: red;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+
+
+}
+
+.now {
+    margin-left: 150px;
+    margin-top: -40px;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.pnov {
+    margin-left: 160px;
+    margin-top: -40px;
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.preco {
+    background-image: linear-gradient(to bottom,rgb(236, 232, 232),white);
+    border-style: dotted;
+    border-radius: 7px;
+    border-color: black;
+    margin-top: 0px;
+
+}
+
+@media (min-width: 425px),(min-width: 375px) {
+
+    .pant {
+        margin-left: 210px;
+        margin-top: -136px;
+        color: red;
+        font-family: 'Libre Franklin', sans-serif;
+        font-size: 21px;
+    
+    
+    }
+    .now {
+        margin-left: 210px;
+        margin-top: -40px;
+        font-weight: 1000;
+        font-size: 25px;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    
+    .pnov {
+        margin-left: 210px;
+        margin-top: -45px;
+        font-weight: 1000;
+        font-size: 43px;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    
+    .preco {
+        background-image: linear-gradient(to bottom,rgb(236, 232, 232),white);
+        border-style: dashed;
+        border-color: black;
+        margin-top: 0px;
+    
+    }
+}
+
+#contato {
+    padding-top: 35px;
+}
+
+.cont {
+    text-align: center;
+}
+
+
+.form-group {
+    margin: 10px;
+}
+
+.contato-select {
+    float: right;
+}
+
+
+.txtarea {
+    padding: 2px;
+    height: 100px;
+    width: 100%;
+    border-color: lightgray;
+}
+
+.bttn {
+    margin-left: 10px;
+    margin-top: 5px;
+   
+}
+
+.rodape {
+    color: #f0f0f0;
+    background: #333333;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
